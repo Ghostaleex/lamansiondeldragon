@@ -3854,7 +3854,7 @@ template {
 body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: #262626;
+  background-color: #1c1c1c;
   margin: 0;
 }
 
@@ -3948,7 +3948,8 @@ cite {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #2c2c2c;
+  background-color: #1c1c1c;
+  background-image: linear-gradient(to bottom right, #812222, black);
   z-index: 1;
 }
 
