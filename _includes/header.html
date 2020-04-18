@@ -1,8 +1,12 @@
 
 <header class="main_header">
-  <a href="{{site.baseurl}}/" class="logo">{% if site.logo %}{{site.logo}}{% endif %}</a>
+  <a href="{{site.baseurl}}/" class="logo">{% if site.logo %}<img src="{{site.baseurl}}/assets/img/{% if site.logo%}{{site.logo}}{% endif %}" alt="Logo"> {% endif %}</a>
   <nav class="main_menu">
     <a href="{{ site.twitch_url }}" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+    <a href="{{ site.youtube_url }}" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+    <a href="{{ site.twitter_url }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="{{ site.instagram_url }}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="{{ site.discord_url }}" target="_blank"><i class="fa fa-discord" aria-hidden="true"></i></a>
     <a href="{{site.baseurl}}/about/">Sobre nosotros</a>
     <a href="{{site.baseurl}}/contact/">Contacto</a>
   </nav>

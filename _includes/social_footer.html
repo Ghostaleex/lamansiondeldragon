@@ -5,6 +5,16 @@
   {% else %}
   <li><a href="#" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>      
   {% endif %}
+  {% if site.youtube_url %}
+  <li><a href="{{ site.youtube_url }}" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+  {% else %}
+  <li><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+  {% endif %}
+  {% if site.discord_url %}
+  <li><a href="{{ site.discord_url }}" target="_blank"><i class="fa fa-discord" aria-hidden="true"></i></a></li>
+  {% else %}
+  <li><a href="#" target="_blank"><i class="fa fa-discord" aria-hidden="true"></i></a></li>
+  {% endif %}
   {% if site.twitter_url %}
   <li><a href="{{ site.twitter_url }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
   {% else %}
