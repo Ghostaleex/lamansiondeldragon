@@ -1,15 +1,15 @@
-logo: lamansiondeldragonlogo # add logo name
+logo: lamansiondeldragonlogo.png # add logo name
 title: La mansión del dragon
 description: > # this means to ignore newlines until "baseurl:"
-  La Mansion del Dragón. Rol made in Spain (corta)
+  La Mansión del Dragón. Rol made in Spain.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lamansiondeldragon.live" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
-banner-title: La mansion del dragon banner # add banner title
-banner-desc: La mansion del dragon banner description # add banner description
+banner-title: La Mansión del Dragón # add banner title
+banner-desc: Rol español en directo. # add banner description
 
 # Author settings
 author-pic: lamansiondeldragonlogo.png # your photo
@@ -22,6 +22,7 @@ website: https://lamansiondeldragon.live # you website
 twitch_url: https://www.twitch.tv/lamansiondeldragon   # add url link
 twitter_url: https://twitter.com/MansionDragon  # add url link
 instagram_url: https://www.instagram.com/mansiondeldragon/ # add url link
+youtube_url: https://www.youtube.com/channel/UC6brEhxeUhVcAHAQrQGgPAw
 
 # Disqus
 discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
