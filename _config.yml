@@ -1,1 +1,51 @@
-theme: jekyll-theme-merlot
+logo: lamansiondeldragonlogo.png # add logo name
+title: La mansión del dragon
+description: > # this means to ignore newlines until "baseurl:"
+  La Mansion del Dragón. Rol made in Spain (corta)
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lamansiondeldragon.live" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Banner settings
+video: mountains.mp4 # add banner video. Add your video file to the folder video
+banner-title: La mansion del dragon banner # add banner title
+banner-desc: La mansion del dragon banner description # add banner description
+
+# Author settings
+author-pic: lamansiondeldragonlogo.png # your photo
+author-name: Ghostalex # your name
+about-author: La Mansión del Dragón es un proyecto que nace en Febrero de 2020... Unos cuantos amigos nos hemos juntado para jugar a rol y de paso, grabarlo. No te desesperes, la mayoría de los jugadores son novatos y nuestro querido master es un poco especial, así que no te asustes con este caos. Esperamos que lo paséis bien viéndonos y que nos acompañéis en esta nuestra aventura. Estamos en Twitch y también podéis vernos en YouTube. Y en esta web... Haremos cosas, a ver cuales. Un abrazo. # about author
+email: lamansiondeldragonrol@gmail.com # your email
+phone: # your pnone number
+website: https://lamansiondeldragon.live # you website
+
+# Social link
+twitch_url: https://www.twitch.tv/lamansiondeldragon   # add url link
+twitter_url: https://twitter.com/MansionDragon  # add url link
+instagram_url: https://www.instagram.com/mansiondeldragon/ # add url link
+
+# Disqus
+discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
+
+# Newsletter
+mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Tracker
+analytics:
+
+# Paginate
+paginate: 12
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
