@@ -1,8 +1,9 @@
 
 <header class="main_header">
-  <a href="{{site.baseurl}}/" class="logo">{% if site.logo %}{{site.logo}}{% else %}B<span>ef</span>{% endif %}</a>
+  <a href="{{site.baseurl}}/" class="logo">{% if site.logo %}{{site.logo}}{% endif %}</a>
   <nav class="main_menu">
-    <a href="{{site.baseurl}}/about/">About</a>
-    <a href="{{site.baseurl}}/contact/">Contact</a>
+    <a href="{{ site.twitch_url }}" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+    <a href="{{site.baseurl}}/about/">Sobre nosotros</a>
+    <a href="{{site.baseurl}}/contact/">Contacto</a>
   </nav>
 </header> <!-- End Section Header -->
