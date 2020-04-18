@@ -23,6 +23,7 @@ twitch_url: https://www.twitch.tv/lamansiondeldragon   # add url link
 twitter_url: https://twitter.com/MansionDragon  # add url link
 instagram_url: https://www.instagram.com/mansiondeldragon/ # add url link
 youtube_url: https://www.youtube.com/channel/UC6brEhxeUhVcAHAQrQGgPAw
+discord_url: https://discord.gg/SSpqqDj
 
 # Disqus
 discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
